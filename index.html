@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Vendor styles -->
+      <link rel="stylesheet" href="design/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+      <link rel="stylesheet" href="design/vendors/bower_components/animate.css/animate.min.css">
+      <!-- App styles -->
+      <link rel="stylesheet" href="design/css/app.min.css">
+      <link rel="stylesheet" href="design/css/login.css">
+   </head>
+   <body data-sa-theme="8">
+      <div class="modal fade" id="modal-large" tabindex="-1">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <iframe class="back" src="terminos.html" width="100%" height="500px">
+                  </iframe>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-link" data-dismiss="modal">Cerrar</button>   
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="login">
+         <!-- Login -->
+         <div class="login__block active">
+            <div class="login__block__body">
+               <div class="tab-container">
+                  <div class="login__block__header">
+                     <i class="zmdi zmdi-account-circle"></i>
+                     <ul class="nav nav-tabs nav-fill" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" data-toggle="tab" href="#login" role="tab">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#registro" role="tab">Registrate</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="tab-content">
+                     <div class="tab-pane active animated pulse" id="login" role="tabpanel">
+                        <div class="login__block__body">
+                           <div class="form-group">
+                              <input type="text" class="form-control text-center" placeholder="Email ">
+                              
+                           </div>
+                           <div class="form-group">
+                              <input type="password" class="form-control text-center" placeholder="Contraseña">
+                           </div>
+                           <a href="index2.html" class="btn btn--icon login__block__btn"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                        </div>
+                        <div class="text-center">Tambien puedes iniciar sesion con:</div>
+                        <br>
+                        <!-- botones redes sociales  -->
+                        <div class="">
+                           <ul class="nav nav-fill" role="tablist">
+                              <li class="nav-item">
+                                 <a href="index.html" class="btn btn-light btn--icon-text"><i class="zmdi zmdi-facebook zmdi-hc-fw"></i>Facebook</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="index.html" class="btn btn-light btn--icon-text" width="80%"><i class="zmdi zmdi-google zmdi-hc-fw"></i>Gmail <div class="widthb"></div></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <!-- ----------------------------------------------------------------------------------------- -->    
+                        <!--
+                           <div class="nav nav-tabs nav-fill">
+                           <div class="nav-item"> 
+                           <a href="index.html" class="btn btn-light btn--icon-text"><i class="zmdi zmdi-facebook zmdi-hc-fw"></i>Entrar con Facebook</a>
+                           </div>
+                           <div class="col-4">
+                           <a href="index.html" class="btn btn-light btn--icon-text"><i class="zmdi zmdi-google zmdi-hc-fw"></i>Entrar con Gmail</a>
+                           </div>
+                           </div>
+                           -->
+                     </div>
+                     <div class="tab-pane fade animated pulse" id="registro" role="tabpanel">
+                        <div class="login__block__body">
+                           <div class="row">
+                              <div class="form-group col-lg-6">
+                                 <input type="text" class="form-control text-center" placeholder="Nombre Completo">
+                              </div>
+                              <div class=" form-group col-lg-6">
+                                 <input type="text" class="form-control text-center" placeholder="Email ">
+                              </div>
+                              <div class=" form-group col-lg-6">
+                                 <input type="password" class="form-control text-center" placeholder="Contraseña">
+                              </div>
+                              <div class=" form-group col-lg-6">
+                                 <input type="password" class="form-control text-center" placeholder="Repetir contraseña">
+                              </div>
+                              <div class="form-group col-lg-6">
+                                 <input type="text" class="form-control text-center" placeholder="Telefono ">
+                              </div>
+                              <div class="form-group col-lg-6">
+                                 <input type="text" class="form-control text-center" placeholder="Institucion ">
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <span class="custom-control-indicator"></span>
+                              <span class="custom-control-description" > <a href="nav" data-toggle="modal" data-target="#modal-large" >Acepta terminos y condiciones</a> </span>
+                              </label>
+                           </div>
+                           <div class="text-center">
+                              <a href="index2.html" class="btn btn--icon login__block__btn"><i class="zmdi zmdi-plus"></i></a>
+                           </div>
+                           <br>
+                           <div class="text-center">Tambien puedes registrarte con:</div>
+                           <br>
+                           <!-- botones redes sociales  -->
+                        <div class="">
+                           <ul class="nav nav-fill" role="tablist">
+                              <li class="nav-item">
+                                 <a href="index.html" class="btn btn-light btn--icon-text"><i class="zmdi zmdi-facebook zmdi-hc-fw"></i>Facebook</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="index.html" class="btn btn-light btn--icon-text" width="80%"><i class="zmdi zmdi-google zmdi-hc-fw"></i>Gmail <div class="widthb"></div></a>
+                              </li>
+                           </ul>
+                        </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Register -->
+         <!-- Forgot Password -->
+         <div class="login__block" id="olvidopassword">
+            <div class="login__block__header">
+               <i class="zmdi zmdi-account-circle"></i>
+               Forgot Password?
+               <div class="actions actions--inverse login__block__actions">
+                  <div class="dropdown">
+                     <i data-toggle="dropdown" class="zmdi zmdi-more-vert actions__item"></i>
+                     <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" data-sa-action="login-switch" data-sa-target="#l-login" href="">Already have an account?</a>
+                        <a class="dropdown-item" data-sa-action="login-switch" data-sa-target="#l-register" href="">Create an account</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="login__block__body">
+               <p class="mb-5">Lorem ipsum dolor fringilla enim feugiat commodo sed ac lacus.</p>
+               <div class="form-group">
+                  <input type="text" class="form-control text-center" placeholder="Email Address">
+               </div>
+               <a href="index.html" class="btn btn--icon login__block__btn"><i class="zmdi zmdi-check"></i></a>
+            </div>
+         </div>
+      </div>
+      <!-- Older IE warning message -->
+      <!--[if IE]>
+      <div class="ie-warning">
+         <h1>Warning!!</h1>
+         <p>You are using an outdated version of Internet Explorer, please upgrade to any of the following web browsers to access this website.</p>
+         <div class="ie-warning__downloads">
+            <a href="http://www.google.com/chrome">
+            <img src="design/img/browsers/chrome.png" alt="">
+            </a>
+            <a href="https://www.mozilla.org/en-US/firefox/new">
+            <img src="design/img/browsers/firefox.png" alt="">
+            </a>
+            <a href="http://www.opera.com">
+            <img src="design/img/browsers/opera.png" alt="">
+            </a>
+            <a href="https://support.apple.com/downloads/safari">
+            <img src="design/img/browsers/safari.png" alt="">
+            </a>
+            <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">
+            <img src="design/img/browsers/edge.png" alt="">
+            </a>
+            <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+            <img src="design/img/browsers/ie.png" alt="">
+            </a>
+         </div>
+         <p>Sorry for the inconvenience!</p>
+      </div>
+      <![endif]-->
+      <!-- Javascript -->
+      <!-- Vendors -->
+      <script src="design/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="design/vendors/bower_components/popper.js/dist/umd/popper.min.js"></script>
+      <script src="design/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="design/vendors/bower_components/select2/dist/js/select2.full.min.js"></script>
+      <!-- App functions and actions -->
+      <script src="design/js/app.min.js"></script>
+   </body>
+</html>
