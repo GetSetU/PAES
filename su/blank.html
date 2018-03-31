@@ -32,7 +32,7 @@
         </div>
         <ul class="top-nav">
           <li class="dropdown">
-            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
+            <a href="" class="hvr-shrink" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
             <div class="dropdown-menu dropdown-menu-right dropdown-menu--block" role="menu">
               <div class="row app-shortcuts">
                 <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
@@ -64,7 +64,7 @@
             </div>
           </li>
           <li class="dropdown">
-            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-power"></i></a>
+            <a href="" class="hvr-shrink" data-toggle="dropdown"><i class="zmdi zmdi-power"></i></a>
             <div class="dropdown-menu dropdown-menu-right">
               <a href="#" onclick="return false" class="dropdown-item hvr-underline-from-center">Ver Perfil</a>
               <a href="#" onclick="return false" class="dropdown-item hvr-underline-from-center">Cerrar Sesion</a>
@@ -98,11 +98,11 @@
               <a href="" class="hvr-underline-from-left"><i class="zmdi zmdi-accounts"></i> Usuarios <i class="zmdi zmdi-chevron-down"></i></a>
               <ul>
                 <li><a href="adduser.html">Agregar usuario</a></li>
-                <li><a href="usuarios.html" class="hvr-float-shadow">Ver Usuarios</a></li>
+                <li><a href="usuarios.html">Ver Usuarios</a></li>
               </ul>
             </li>
             <li class="navigation__sub">
-              <a href="" class="hvr-underline-from-left"><i class="zmdi zmdi-collection-text"></i> Materias <i class="zmdi zmdi-chevron-down"></i></a>
+              <a href="" class="hvr-underline-from-left navigation__sub__toggled"><i class="zmdi zmdi-collection-text"></i> Materias <i class="zmdi zmdi-chevron-down"></i></a>
               <ul>
                 <li><a href="materias.html">Ver Materias</a></li>
                 <li><a href="digitador.html">Contactar Digitador</a></li>
@@ -117,6 +117,14 @@
           <div class="card">
             <div class="card-body">
               <h1>Blank SU</h1>
+            </div>
+            <div class=" widget-calendar" hidden>
+
+
+              <div class="card widget-calendar">
+
+                <div class="widget-calendar__body"></div>
+              </div>
             </div>
             <footer class="footer hidden-xs-down">
               <p> Ayuda PAES - UNAB</p>
@@ -136,22 +144,22 @@
          <p>You are using an outdated version of Internet Explorer, please upgrade to any of the following web browsers to access this website.</p>
          <div class="ie-warning__downloads">
             <a href="http://www.google.com/chrome">
-            <img src="img/browsers/chrome.png" alt="">
+            <img src="../design/img/browsers/chrome.png" alt="">
             </a>
             <a href="https://www.mozilla.org/en-US/firefox/new">
-            <img src="img/browsers/firefox.png" alt="">
+            <img src="../design/img/browsers/firefox.png" alt="">
             </a>
             <a href="http://www.opera.com">
-            <img src="img/browsers/opera.png" alt="">
+            <img src="../design/img/browsers/opera.png" alt="">
             </a>
             <a href="https://support.apple.com/downloads/safari">
-            <img src="img/browsers/safari.png" alt="">
+            <img src="../design/img/browsers/safari.png" alt="">
             </a>
             <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">
-            <img src="img/browsers/edge.png" alt="">
+            <img src="../design/img/browsers/edge.png" alt="">
             </a>
             <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-            <img src="img/browsers/ie.png" alt="">
+            <img src="../design/img/browsers/ie.png" alt="">
             </a>
          </div>
          <p>Sorry for the inconvenience!</p>
@@ -166,6 +174,11 @@
     <script src="../design/vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js"></script>
     <!-- App functions and actions -->
     <script src="../design/js/app.min.js"></script>
+    <script src="../design/vendors/bower_components/peity/jquery.peity.min.js"></script>
+    <script src="../design/vendors/bower_components/moment/min/moment.min.js"></script>
+    <script src="../design/vendors/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+    <script src="../design/demo/js/flot-charts/chart-tooltips.js"></script>
+
   </body>
 
 </html>
