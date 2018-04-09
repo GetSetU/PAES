@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="../design/vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css">
   <!-- App styles -->
   <link rel="stylesheet" href="../design/css/app.min.css">
-  <link rel="stylesheet" href="../design/css/todo.css">
   <link rel="stylesheet" href="../design/css/hover-min.css">
 </head>
 
@@ -20,7 +19,7 @@
       <div class="page-loader__spinner">
         <svg viewBox="25 25 50 50">
                   <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
-               </svg>
+              </svg>
       </div>
     </div>
     <header class="header">
@@ -72,34 +71,33 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="" class="hvr-shrink" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
+          <a href="" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
           <div class="dropdown-menu dropdown-menu-right dropdown-menu--block" role="menu">
             <div class="row app-shortcuts">
-              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
-                      <i class="zmdi zmdi-help-outline"></i>
-                      <small class="">Cosa1</small>
-                      </a>
-              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
-                      <i class="zmdi zmdi-help-outline"></i>
-                      <small class="">Cosa2</small>
-                      </a>
-              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
-                      <i class="zmdi zmdi-help-outline"></i>
-                      <small class="">Cosa3</small>
-                      </a>
-              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
-                      <i class="zmdi zmdi-help-outline"></i>
-                      <small class="">Cosa4</small>
-                      </a>
-              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
-                      <i class="zmdi zmdi-help-outline"></i>
-                      <small class="">Cosa5</small>
-                      </a>
-              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
-                      <i class="zmdi zmdi-help-outline"></i>
-                      <small class="">Cosa6</small>
-                      </a>
-              <!--Cambiar la opacidad a 0.7-->
+              <a class="col-4 app-shortcuts__item" href="">
+                        <i class="zmdi zmdi-calendar"></i>
+                        <small class="">Calendario</small>
+                        </a>
+              <a class="col-4 app-shortcuts__item" href="">
+                        <i class="zmdi zmdi-file-text"></i>
+                        <small class="">Archivos</small>
+                        </a>
+              <a class="col-4 app-shortcuts__item" href="">
+                        <i class="zmdi zmdi-email"></i>
+                        <small class="">Email</small>
+                        </a>
+              <a class="col-4 app-shortcuts__item" href="">
+                        <i class="zmdi zmdi-trending-up"></i>
+                        <small class="">Reportes</small>
+                        </a>
+              <a class="col-4 app-shortcuts__item" href="">
+                        <i class="zmdi zmdi-view-headline"></i>
+                        <small class="">Nuevo</small>
+                        </a>
+              <a class="col-4 app-shortcuts__item" href="">
+                        <i class="zmdi zmdi-image"></i>
+                        <small class="">Galeria</small>
+                        </a>
             </div>
           </div>
         </li>
@@ -126,7 +124,7 @@
           </div>
         </div>
         <ul class="navigation">
-          <li class="navigation__active"><a href="#"><i class="zmdi zmdi-home"></i> Inicio</a></li>
+          <li class="navigation__sub"><a href="#"><i class="zmdi zmdi-home"></i> Inicio</a></li>
           <li class="navigation__sub ">
             <a href=""><i class="zmdi zmdi-collection-text"></i>Historial<i Class="zmdi zmdi-chevron-down zmdi-hc-fw"></i></a>
             <ul>
@@ -136,11 +134,10 @@
               <li class="@@formvalidationactive"><a href="form-validation.html">Matematicas</a></li>
             </ul>
           </li>
-          <li class="navigation__sub"><a href="#"><i class="zmdi zmdi-card-travel zmdi-hc-fw"></i> Team</a></li>
+          <li class="navigation__active"><a href="#"><i class="zmdi zmdi-card-travel zmdi-hc-fw"></i> Team</a></li>
           <li class="navigation__sub">
             <a href=""><i class="zmdi zmdi-info-outline zmdi-hc-fw"></i>Ayuda<i Class="zmdi zmdi-chevron-down zmdi-hc-fw"></i></a>
             <ul>
-
               <li class="@@formcomponentactive"><a href="form-components.html">Libros PDF</a></li>
               <li class="@@formvalidationactive"><a href="form-validation.html">Guias de estudio PDF</a></li>
               <li class="@@formvalidationactive"><a href="form-validation.html">Ejercicios PDF</a></li>
@@ -153,88 +150,114 @@
     </aside>
     <section class="content">
       <div class="content__inner">
-        <div class="row">
-          <div class="col-lg-6 hvr-bob">
-            <a href="#">
-              <div class="card2">
-                <div class="pre">
-                  <div class="card2-body" align="center">
-                    <h4 class="card2-title" align="center">Lenguaje y Literatura</h4>
-                    <h6 class="card2-subtitle">Test de estudio sobre Lenguaje y Literatura.</h6>
-                    <div class="flot-chart flot-curved-line">
-                      <img class="img" src="../design/img/materias/m11.png" height="95%">
-                    </div>
-                    <div class="flot-chart-legends flot-chart-legends--curved">
-                    </div>
-                  </div>
+        <header class="content__title">
+          <h1>Conocenos!</h1>
+          <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</small>
+        </header>
+        <div class="row team">
+          <div class="col-md-6 col-lg-4 hvr-grow">
+            <div class="card team__item">
+              <img src="../design/demo/img/contacts/4.jpg" class="team__img" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Francisco A. Guardado</h4>
+                <h6 class="card-subtitle">Chairman / Chief Executive Officer</h6>
+                <p class="card-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leoquam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.</p>
+                <h6><a  href="mailto:alfredo.guardadots@gmail.com">Escribe un correo</a></h6>
+                <div class="team__social">
+                  <a href="https://www.facebook.com/alfredo.guardado.33" class="zmdi zmdi-facebook hvr-pop"></a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
-          <div class="col-lg-6 hvr-bob">
-            <a href="#">
-              <div class="card2">
-                <div class="pre">
-                  <div class="card2-body" align="center">
-                    <h4 class="card2-title">Matematicas</h4>
-                    <h6 class="card2-subtitle">Test de estudio sobre Matematicas.</h6>
-                    <div class="flot-chart flot-line">
-                      <img class="img" src="../design/img/materias/m2.png" height="95%">
-                    </div>
-                    <div class="flot-chart-legends flot-chart-legends--line">
-                    </div>
-                  </div>
+          <div class="col-md-6 col-lg-4 hvr-grow">
+            <div class="card team__item">
+              <img src="../design/demo/img/contacts/2.jpg" class="team__img" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Mynor A. Melgar</h4>
+                <h6 class="card-subtitle">Group CEO / Executive Director</h6>
+                <p class="card-text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet.</p>
+                <h6><a href="mailto:Ingenieromynormelgar@gmail.com">Escribe un correo</a> </h6>
+                <div class="team__social">
+                  <a href="https://www.facebook.com/mynor97" class="zmdi zmdi-facebook hvr-pop"></a>
+                  <a href="https://www.instagram.com/mynoradonay" class="zmdi zmdi-instagram hvr-pop"></a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
-          <div class="col-lg-6 hvr-bob">
-            <a href="#">
-              <div class="card2">
-                <div class="pre">
-                  <div class="card2-body" align="center">
-                    <h4 class="card2-title">Ciencias Naturales</h4>
-                    <h6 class="card2-subtitle">Test de estudio sobre Ciencias Naturales.</h6>
-                    <div class="flot-chart flot-line">
-                      <img class="img" src="../design/img/materias/m3.png" height="95%">
-                    </div>
-                    <div class="flot-chart-legends flot-chart-legends--line">
-                    </div>
-                  </div>
+          <div class="col-md-6 col-lg-4 hvr-grow">
+            <div class="card team__item">
+              <img src="../design/demo/img/contacts/7.jpg" class="team__img" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Emerson U. Lopez</h4>
+                <h6 class="card-subtitle">Non-Executive Director</h6>
+                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue.</p>
+                <h6><a href="#">Correo</a> </h6>
+                <div class="team__social">
+                  <a href="#" class="zmdi zmdi-facebook hvr-pop"></a>
+                  <a href="#" class="zmdi zmdi-twitter hvr-pop"></a>
+                  <a href="#" class="zmdi zmdi-instagram hvr-pop"></a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
-          <div class="col-lg-6 hvr-bob">
-            <a href="#">
-              <!-- crear desde la etiqueta a, Crear nuevo css`para esto-->
-              <div class="card2">
-                <div class="pre">
-                  <div class="card2-body" align="center">
-                    <h4 class="card2-title">Estudios Sociales</h4>
-                    <h6 class="card2-subtitle">Test de estudio sobre Estudios Sociales.</h6>
-                    <div class="flot-chart flot-line">
-                      <img class="img" src="../design/img/materias/m4.png" width="70%" height="95%">
-                    </div>
-                    <div class="flot-chart-legends flot-chart-legends--line">
-                    </div>
-                  </div>
+          <div class="col-md-6 col-lg-4 hvr-grow">
+            <div class="card team__item">
+              <img src="../design/demo/img/contacts/3.jpg" class="team__img" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Edwin A. Nuñez</h4>
+                <h6 class="card-subtitle">Executive Director - Finance</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet,ng elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
+                <h6><a href="mailto:Ed.joya.15@gmail.com?subject=Contacto SW PAES">Escribe un correo</a> </h6>
+                <div class="team__social">
+                  <a href="https://www.facebook.com/alex.nj22" target="_blank" class="zmdi zmdi-facebook  hvr-pop"></a>
+                  <a href="https://twitter.com/alex_nj22" target="_blank" class="zmdi zmdi-twitter  hvr-pop"></a>
+                  <a href="https://instagram.com/alex_nj22" target="_blank" class="zmdi zmdi-instagram  hvr-pop"></a>
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 hvr-grow">
+            <div class="card team__item">
+              <img src="../design/demo/img/contacts/5.jpg" class="team__img" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Sergio E. Moreno</h4>
+                <h6 class="card-subtitle">Chief Technology Officer</h6>
+                <p class="card-text">Commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet.</p>
+                <h6><a href="#">Correo</a> </h6>
+                <div class="team__social">
+                  <a href="https://www.facebook.com/edgardo.moreno.7" target="_blank" class="zmdi zmdi-facebook  hvr-pop"></a>
+                  <a href="https://twitter.com/edgardmorhen" target="_blank" class="zmdi zmdi-twitter  hvr-pop"></a>
+                  <a href="https://instagram.com/edgardmorhen" target="_blank" class="zmdi zmdi-instagram  hvr-pop"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 hvr-grow">
+            <div class="card team__item">
+              <img src="../design/demo/img/contacts/9.jpg" class="team__img" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Oscar E. Aleman</h4>
+                <h6 class="card-subtitle">Director - After Sales Services</h6>
+                <p class="card-text">Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare veleuleo.</p>
+                <h6><a href="#">Correo</a> </h6>
+                <div class="team__social">
+                  <a href="#" class="zmdi zmdi-facebook  hvr-pop"></a>
+                  <a href="#" class="zmdi zmdi-twitter  hvr-pop"></a>
+                  <a href="#" class="zmdi zmdi-instagram hvr-pop>"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <footer class="footer">
+          <p> Ayuda PAES - UNAB</p>
+          <ul class="nav footer__nav">
+            <a class="nav-link" href="">Inicio</a>
+            <a class="nav-link" href="http://www.unab.edu.sv/chalatenango/" target="_blank">UNAB</a>
+            <a class="nav-link" href="">Soporte</a>
+          </ul>
+        </footer>
       </div>
-      </div>
-      </div>
-      <footer class="footer">
-        <p> Ayuda PAES - UNAB</p>
-        <ul class="nav footer__nav">
-          <a class="nav-link" href="">Inicio</a>
-          <a class="nav-link" href="http://www.unab.edu.sv/chalatenango/" target="_blank">UNAB</a>
-          <a class="nav-link" href="">Soporte</a>
-        </ul>
-      </footer>
     </section>
   </main>
   <!-- Older IE warning message -->
