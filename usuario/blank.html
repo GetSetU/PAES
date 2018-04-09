@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../design/vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css">
   <!-- App styles -->
   <link rel="stylesheet" href="../design/css/app.min.css">
+  <link rel="stylesheet" href="../design/css/todo.css">
   <link rel="stylesheet" href="../design/css/hover-min.css">
 </head>
 
@@ -71,33 +72,34 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
+          <a href="" class="hvr-shrink" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
           <div class="dropdown-menu dropdown-menu-right dropdown-menu--block" role="menu">
             <div class="row app-shortcuts">
-              <a class="col-4 app-shortcuts__item" href="">
-                        <i class="zmdi zmdi-calendar"></i>
-                        <small class="">Calendario</small>
-                        </a>
-              <a class="col-4 app-shortcuts__item" href="">
-                        <i class="zmdi zmdi-file-text"></i>
-                        <small class="">Archivos</small>
-                        </a>
-              <a class="col-4 app-shortcuts__item" href="">
-                        <i class="zmdi zmdi-email"></i>
-                        <small class="">Email</small>
-                        </a>
-              <a class="col-4 app-shortcuts__item" href="">
-                        <i class="zmdi zmdi-trending-up"></i>
-                        <small class="">Reportes</small>
-                        </a>
-              <a class="col-4 app-shortcuts__item" href="">
-                        <i class="zmdi zmdi-view-headline"></i>
-                        <small class="">Nuevo</small>
-                        </a>
-              <a class="col-4 app-shortcuts__item" href="">
-                        <i class="zmdi zmdi-image"></i>
-                        <small class="">Galeria</small>
-                        </a>
+              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
+                      <i class="zmdi zmdi-help-outline"></i>
+                      <small class="">Cosa1</small>
+                      </a>
+              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
+                      <i class="zmdi zmdi-help-outline"></i>
+                      <small class="">Cosa2</small>
+                      </a>
+              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
+                      <i class="zmdi zmdi-help-outline"></i>
+                      <small class="">Cosa3</small>
+                      </a>
+              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
+                      <i class="zmdi zmdi-help-outline"></i>
+                      <small class="">Cosa4</small>
+                      </a>
+              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
+                      <i class="zmdi zmdi-help-outline"></i>
+                      <small class="">Cosa5</small>
+                      </a>
+              <a class="col-4 app-shortcuts__item hvr-grow" href="#" onclick="return false">
+                      <i class="zmdi zmdi-help-outline"></i>
+                      <small class="">Cosa6</small>
+                      </a>
+              <!--Cambiar la opacidad a 0.7-->
             </div>
           </div>
         </li>
@@ -116,17 +118,14 @@
             <img class="user__img" src="../design/demo/img/profile-pics/4.jpg" alt="">
             <div>
               <div class="user__name">Usuario</div>
-              <div class="user__email">Nj0637032013@unab.edu.sv</div>
+              <div class="user__email">Mr0795032014@unab.edu.sv</div>
             </div>
-          </div>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="">Ver Perfil</a>
           </div>
         </div>
         <ul class="navigation">
-          <li class="navigation__active"><a href="index.html" class="hvr-underline-from-left"><i class="zmdi zmdi-home"></i> Inicio</a></li>
+          <li class="navigation__active"><a href="#"><i class="zmdi zmdi-home"></i> Inicio</a></li>
           <li class="navigation__sub ">
-            <a href="" class="hvr-underline-from-left"><i class="zmdi zmdi-collection-text"></i>Historial<i Class="zmdi zmdi-chevron-down zmdi-hc-fw"></i></a>
+            <a href=""><i class="zmdi zmdi-collection-text"></i>Historial<i Class="zmdi zmdi-chevron-down zmdi-hc-fw"></i></a>
             <ul>
               <li class="@@formelementactive"><a href="form-elements.html">Lenguaje</a></li>
               <li class="@@formcomponentactive"><a href="form-components.html">Estudios Sociales</a></li>
@@ -134,35 +133,46 @@
               <li class="@@formvalidationactive"><a href="form-validation.html">Matematicas</a></li>
             </ul>
           </li>
-          <li class="navigation__sub"><a href="#" class="hvr-underline-from-left"><i class="zmdi zmdi-card-travel zmdi-hc-fw"></i> Team</a></li>
+          <li class="navigation__sub"><a href="#"><i class="zmdi zmdi-card-travel zmdi-hc-fw"></i> Team</a></li>
           <li class="navigation__sub">
-            <a href="" class="hvr-underline-from-left"><i class="zmdi zmdi-info-outline zmdi-hc-fw"></i>Ayuda<i Class="zmdi zmdi-chevron-down zmdi-hc-fw"></i></a>
+            <a href=""><i class="zmdi zmdi-info-outline zmdi-hc-fw"></i>Ayuda<i Class="zmdi zmdi-chevron-down zmdi-hc-fw"></i></a>
             <ul>
+
               <li class="@@formcomponentactive"><a href="form-components.html">Libros PDF</a></li>
               <li class="@@formvalidationactive"><a href="form-validation.html">Guias de estudio PDF</a></li>
               <li class="@@formvalidationactive"><a href="form-validation.html">Ejercicios PDF</a></li>
               <li class="@@formvalidationactive"><a href="form-validation.html">Tecnicas de estudio</a></li>
             </ul>
           </li>
-          <li class="navigation__sub"><a href="#" class="hvr-underline-from-left"><i class="zmdi zmdi-help-outline zmdi-hc-fw"></i>FAQ's</a></li>
+          <li class="navigation__sub"><a href="#"><i class="zmdi zmdi-help-outline zmdi-hc-fw"></i>FAQ's</a></li>
         </ul>
       </div>
     </aside>
     <section class="content">
       <div class="content__inner">
-        <div class="row">
+        <div class="card">
+          <div class="card-body">
+            <h1>Blank Digitador</h1>
+          </div>
+          <div class=" widget-calendar" hidden>
+            <div class="card widget-calendar">
+              <div class="widget-calendar__body"></div>
+            </div>
+          </div>
         </div>
+
+
+      </div>
       </div>
       </div>
       <footer class="footer">
         <p> Ayuda PAES - UNAB</p>
         <ul class="nav footer__nav">
           <a class="nav-link" href="">Inicio</a>
-          <a class="nav-link" href="" title="(redireccionar a su sitio)">UNAB</a>
+          <a class="nav-link" href="http://www.unab.edu.sv/chalatenango/" target="_blank">UNAB</a>
           <a class="nav-link" href="">Soporte</a>
         </ul>
       </footer>
-      </div>
     </section>
   </main>
   <!-- Older IE warning message -->
