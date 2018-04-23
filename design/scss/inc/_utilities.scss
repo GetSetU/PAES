@@ -4,7 +4,7 @@
 
 /* Breakpoint XS */
 @media (max-width: map_get($grid-breakpoints, sm)) {
-  .hidden-xs-down, .hidden-sm-down, .hidden-md-down, .hidden-lg-down, .hidden-xl-down,
+  ., .hidden-sm-down, .hidden-md-down, .hidden-lg-down, .hidden-xl-down,
   .hidden-xs-up,
   .hidden-unless-sm, .hidden-unless-md, .hidden-unless-lg, .hidden-unless-xl
   {
